@@ -37,7 +37,7 @@ Make sure you have the correct:
 2. `robot_positions_right.json`
 3. `curve_points.json`
 
-Note: the rz in 1 should be in an increasing sequence. If the April tag rotation is close to the limitation (eg: rz1=-175, rz2=175), please rotate April tag or add an offset.
+Note: the rz in 1 should be in an increasing sequence. If the April tag rotation is close to the limitation (eg: ’rz1=-175‘, ’rz2=175‘), please rotate April tag or add an offset.
 
 Run the following command to use 1 and 2 to calibrate and transfer 3 to the coordinate in the robot frame and save as "base_points_transformed.json":
     ```bash
@@ -46,7 +46,7 @@ Run the following command to use 1 and 2 to calibrate and transfer 3 to the coor
 
 ## Trajectory test:
 
-You can test the accuracy and reachability of this transferred trajectory: "base_points_transformed.json".
+You can test the accuracy and reachability of this transferred trajectory: ’base_points_transformed.json‘.
 1. run python run_arm_right.py
 2. input command "traj"
 
