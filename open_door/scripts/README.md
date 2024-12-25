@@ -25,7 +25,11 @@ Note: The robot arm will directly go to the calibration position, make sure ther
 
 4. input "calibration" command, and the robot will start auto calibration.
 
-Note: this calibration is for the transformation between the arm coordinate and the top view camera coordinate. Make sure the April tag appears in the camera and the surface of it is parallel to the table surface. The robot will only rotate the fifth joint with a step of 10 degrees to collect joint angle and April tag positions and directions, which will be saved as "robot_positions_{arm}.json" and "recorded_positions_{arm}.json" in the current directory.
+Note: this calibration is for the transformation between the arm coordinate and the top view camera coordinate. Make sure the April tag appears in the camera and the surface of it is parallel to the table surface. The robot will only rotate the fifth joint with a step of 10 degrees to collect joint angle and April tag positions and directions, which will be saved as:
+- `robot_positions_{arm}.json`
+- `recorded_positions_{arm}.json`
+
+These files will be saved in the current directory.
 
 Please refer to the "calibration" function in arm.py for details.
 
