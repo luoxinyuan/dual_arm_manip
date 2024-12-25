@@ -47,6 +47,14 @@ Run the following command to use 1 and 2 to calibrate and transfer 3 to the coor
     
     python calibrate_from_json.py
 
+## Drawing trajectory:
+
+You can easily draw a trajectory and test the robot arm on that trajectory.
+Run the following command:
+    ```bash
+    python draw_camera.py
+
+Follow the instructions to draw a trajectory and get waypoints. They will be saved as `curve_points.json`.
 
 ## Trajectory test:
 
