@@ -76,4 +76,5 @@ follow the instructions to record the trajectory.
 The script will record both left and right trajectory and direction in camera coordinates, the format is `[x, y, 0, 0, 0, rz]`, which are the x and y pixels and rz is the rotation of the April tag. The raw video of the whole process will be recorded at the same time. All those data will be saved in the directory `dmp_traj`.
 
 If you have other questions, you can chat me on Slack, through email: `xl153@illinois.edu`, or WeChat: `lxynzmzmc`
+
 Xinyuan Luo
