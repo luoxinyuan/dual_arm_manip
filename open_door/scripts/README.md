@@ -40,6 +40,7 @@ Make sure you have the correct:
 Note: the rz in 1 should be in an increasing sequence. If the April tag rotation is close to the limitation (eg: ’rz1=-175‘, ’rz2=175‘), please rotate April tag or add an offset.
 
 Run the following command to use 1 and 2 to calibrate and transfer 3 to the coordinate in the robot frame and save as "base_points_transformed.json":
+    
     ```bash
     python calibrate_from_json.py
 
