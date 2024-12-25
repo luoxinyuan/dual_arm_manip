@@ -51,6 +51,7 @@ Run the following command to use 1 and 2 to calibrate and transfer 3 to the coor
 
 You can easily draw a trajectory and test the robot arm on that trajectory.
 Run the following command:
+
     ```bash
     python draw_camera.py
 
@@ -58,7 +59,7 @@ Follow the instructions to draw a trajectory and get waypoints. They will be sav
 
 ## Trajectory test:
 
-You can test the accuracy and reachability of this transferred trajectory: ’base_points_transformed.json‘.
+You can test the accuracy and reachability of this transferred trajectory: `base_points_transformed.json`.
 1. run
     ```bash
     python run_arm_right.py
