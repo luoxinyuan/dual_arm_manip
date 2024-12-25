@@ -48,7 +48,7 @@ Run the following command to use 1 and 2 to calibrate and transfer 3 to the coor
 
 You can test the accuracy and reachability of this transferred trajectory: ’base_points_transformed.json‘.
 1. run
-
+    ```bash
     python run_arm_right.py
    
 3. input command "traj"
