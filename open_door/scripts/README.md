@@ -60,8 +60,8 @@ You can test the accuracy and reachability of this transferred trajectory: ’ba
 ## Record trajectory:
 
 Run the following command:
-    ```bash
-    python collect_trajectory.py
+```bash
+python collect_trajectory.py
 
 follow the instructions to record the trajectory.
 
