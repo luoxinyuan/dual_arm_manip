@@ -41,7 +41,6 @@ Note: the rz in 1 should be in an increasing sequence. If the April tag rotation
 
 Run the following command to use 1 and 2 to calibrate and transfer 3 to the coordinate in the robot frame and save as "base_points_transformed.json":
     
-    ```
     python calibrate_from_json.py
 
 
