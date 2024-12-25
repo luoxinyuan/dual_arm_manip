@@ -56,6 +56,7 @@ You can test the accuracy and reachability of this transferred trajectory: ’ba
 ## Record trajectory:
 
 run 
+    ```bash
     python collect_trajectory.py
 
 follow the instructions to record the trajectory.
